@@ -82,3 +82,19 @@ footer{
  }
 
 }
+@media only screen and (max-height:800px){
+    #opciones{
+       flex-direction: column;
+       margin: 5px;
+       padding-top: 10px;;
+    }
+    #opciones div{
+        margin: 5px;
+        padding: 10px;
+    }
+
+    #Resultado div{
+        height: 100px;
+    }
+
+}
