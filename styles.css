@@ -1,0 +1,19 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#titulo{
+    display: flex;
+    justify-content: center;
+    background-color: lightgray;
+    padding: 20px;
+}
+
+#opciones{
+    display: flex;
+    justify-content:space-around;
+}
+#resultado{
+    display: flex;
+    justify-content:center;
+}
