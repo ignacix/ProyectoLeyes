@@ -2,18 +2,83 @@
     margin: 0%;
     padding: 0%;
 }
+html, body{
+    height: 100%;
+    background-color: lightblue;
+}
 #titulo{
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: lightgray;
-    padding: 20px;
+    padding: 10px;
+    height: 10%;
+    font-size: larger;
 }
 
-#opciones{
-    display: flex;
-    justify-content:space-around;
+img{
+    padding-left: 50px;
 }
-#resultado{
+
+#opciones{    
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+    height: 30%;
+    font-size: larger;
+}
+
+#opciones div{
+    background-color: white;
+    border: 1px solid lightgrey;
+    border-radius: 15px;
+    margin: 20px;
+    padding: 30px;
+}
+#opciones div p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#btn{
     display: flex;
-    justify-content:center;
+    justify-content: center;
+    border-radius: 25px;
+}
+#miBoton{    
+    padding: 10px;
+    margin: 10px;
+}
+
+#Resultado{    
+    display: flex;
+    justify-content:center;    
+}
+
+#Resultado div{
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 25px;
+    padding: 25px;
+    width: 50%;
+    height: 200px;
+}
+
+footer{
+    padding-top: 10px; ;
+    padding-bottom:10px ;
+    text-align: center;
+    background-color: lightgray;
+    position: absolute;
+    width: 100%;
+    bottom: 0%;
+
+}
+
+@media only screen and (max-width:500px){
+ #opciones{
+    flex-direction: column;
+    margin: 20px;
+    padding-top: 10px;;
+ }
+
 }
